@@ -1,6 +1,6 @@
 # bootstrap4-mizuxe-theme
 
-A demo bootstrap 4 theme. 
+A demo bootstrap 4 theme using SASS from the downloaded source files for version 4.1.2
 
 # Currently in Progress
 
