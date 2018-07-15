@@ -1,3 +1,20 @@
+// Import Boostrap SCSS for compiling from single SCSS file...this file!
+@import "bootstrap";
+
+$primary: #3292a7;
+$primary-overlay: rgba(50,146,166, 0.8);
+
 body {
-   background: teal;
+   margin-top: 105px;
+}
+
+.navbar {
+   box-shadow:  2px 2px 5px $primary;
+   opacity: 0.9;
+   background: #fff;
+
+   .nav-item {
+      font-size: 1.2rem;
+      padding-right: 1.2rem;
+   }
 }
