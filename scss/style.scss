@@ -42,7 +42,7 @@ body {
 
 #authors {
    img {
-      margin-top: -50px;
+      margin-top: -51px;
    }
 
    .card:hover {
@@ -52,6 +52,10 @@ body {
       .fab {
          color: white;
       }
+   }
+
+   .card {
+      margin-bottom: 4rem;
    }
 }
 
@@ -70,13 +74,6 @@ body {
    // Custom class for forms on small screens
    .mb-resp {
       margin-bottom: 1rem;
-   }
-
-   #authors {
-      .card {
-         margin-top: 20px;
-         margin-bottom: 20px;
-      }
    }
 
 }

@@ -9547,7 +9547,7 @@ body {
 }
 
 #authors img {
-  margin-top: -50px;
+  margin-top: -51px;
 }
 
 #authors .card:hover {
@@ -9557,6 +9557,10 @@ body {
 
 #authors .card:hover .fab {
   color: white;
+}
+
+#authors .card {
+  margin-bottom: 4rem;
 }
 
 /*
@@ -9571,10 +9575,6 @@ body {
   }
   .mb-resp {
     margin-bottom: 1rem;
-  }
-  #authors .card {
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
