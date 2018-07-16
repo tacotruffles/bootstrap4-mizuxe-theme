@@ -35,7 +35,7 @@ body {
 }
 
 /*
-   MEDIA QUERIES
+   MEDIA QUERIES 
 */
 @media(max-width: 768px) {
    #showcase {
@@ -44,6 +44,11 @@ body {
       h1 {
          font-size: 4rem;
       }
+   }
+
+   // Custom class for forms on small screens
+   .mb-resp {
+      margin-bottom: 1rem;
    }
 
 }
