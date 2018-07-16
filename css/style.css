@@ -9546,6 +9546,19 @@ body {
   border-bottom: 1px #ddd solid;
 }
 
+#authors img {
+  margin-top: -50px;
+}
+
+#authors .card:hover {
+  background: #3292a7;
+  color: white;
+}
+
+#authors .card:hover .fab {
+  color: white;
+}
+
 /*
    MEDIA QUERIES 
 */
@@ -9558,6 +9571,10 @@ body {
   }
   .mb-resp {
     margin-bottom: 1rem;
+  }
+  #authors .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
